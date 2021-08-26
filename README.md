@@ -1,9 +1,14 @@
 > **Project Overview**
-> This project Operationalizing machine learning entails creating an Automated Machine learning model, deploying the best model, creating and publishing a pipeline and testing the pipeline with an API request.
+> This project Operationalizing machine learning entails creating an Automated Machine learning model, deploying the best model as a webservice using Azure Container Instance, which will be consumed via an API endpoint, creating and publishing a pipeline as a service with an endpoint so as to remotely trigger experiment runs and testing the pipeline with an API request through the API endpoint.
+
 > 
 > **Architectural Diagram**
 > 
 > ![image](https://user-images.githubusercontent.com/86358182/129568848-40023aab-faa5-428a-9878-da4debdf1d81.png)
+
+**Project Improvement**
+
+Performing feature transformation on the data set could help improve the model performance in future. This is a very important aspect of machine learning that can greatly affect the model performance.
 > 
 > The major steps taken in this project are as shown in screenshots below:
 > 
@@ -53,6 +58,15 @@
 > ![image](https://user-images.githubusercontent.com/86358182/129563490-a1bf62ca-104f-4b78-af12-95f6caa2ec80.png)
 > 
 > _Image showing that the "Use RunDetails widget" shows the step runs_
+
+![image](https://user-images.githubusercontent.com/86358182/130884188-447157eb-5401-4e73-af5d-41d6adb2b8ec.png)
+![image](https://user-images.githubusercontent.com/86358182/130884556-095b3b85-79f0-42d6-adcb-9ba0ddb27296.png)
+
+Image showing the Published Pipeline overview showing a REST endpoint and a status of Active
+
+![image](https://user-images.githubusercontent.com/86358182/130884598-01027c37-ab7c-4e2f-b735-85ea0433a978.png)
+
+Image showing a sheduled run
 > 
 > 
 > **Screen cast for this project is available** [here](https://youtu.be/w55XiaQWDUY)
